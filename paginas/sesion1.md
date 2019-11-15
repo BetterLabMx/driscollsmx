@@ -6,8 +6,8 @@ Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de in
 
 ![FusariumNCBI](Fusarium18s.png)
 
-Después, 
-
+Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence".
+![FusariumOx](FusariumOx.png)
 
 
 # Sesión 5 Datos genómicos y Bioinformática   
