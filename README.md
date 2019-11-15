@@ -10,7 +10,7 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
     <tr>
         <td>Lunes 18 (Mañana)       </td> <td>      Lunes 18 (tarde)                 </td>
   </tr>  
-    <tr><td> [Sesión 1](paginas/sesion1.md)  Datos y algoritmos bioinformáticos  (9:00 - 10:30 am)          </td>  
+  <tr><td> <a href="paginas/sesion1.md"> Sesión 1</a>  Datos y algoritmos bioinformáticos  (9:00 - 10:30 am)          </td>  
       <td>  Sesión 2 Metadatos y visualización (10:45 - 11:45 am)</td>
   </tr>
     <tr><td> Sesión 3 (12:00 - 1:00 am) RAST y Genomica Bacteriana</a> 
