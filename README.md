@@ -11,17 +11,17 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
         <td>Lunes 18 (Mañana)       </td> <td>      Lunes 18 (tarde)                 </td>
   </tr>  
   <tr><td> <a href="paginas/sesion1.md"> Sesión 1</a>  Datos y algoritmos bioinformáticos  (9:00 - 10:30 am)          </td>  
-      <td>  Sesión 2 Metadatos y visualización (10:45 - 11:45 am)</td>
+      <td>  <a href="paginas/sesion2.md"> Sesión 2</a> Metadatos y visualización (10:45 - 11:45 am)</td>
   </tr>
-    <tr><td> Sesión 3 (12:00 - 1:00 am) RAST y Genomica Bacteriana</a> 
+    <tr><td> <a href="paginas/sesion3.md"> Sesión 3</a> (12:00 - 1:00 am) RAST y Genomica Bacteriana</a> 
         </td>
       <td>
       </td></tr>  
     <tr><td>
         Comida (2:00-3:00)</td><td> Comida (12:10-12:50)</td></tr>
     <tr><td>
-        Sesión 4  (3:00 - 04:00 pm)   Sesión 4 (1:00 - 2:00) COMIDA  Análisis de secuencias Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash     y Docker        </td>
-      <td>Sesión 5 (4:15-5:15) Perspectivas y temas de investigacion <a href="paginas/genomica/genomica.md"> Arboles y metadatos</a></td>
+        <a href="paginas/sesion4.md"> Sesión 4</a>(3:00 - 4:00)  Análisis de secuencias Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash     y Docker        </td>
+      <td><a href="paginas/sesion5.md"> Sesión 5</a>(4:15-5:15) Perspectivas y temas de investigacion <a href="paginas/genomica/genomica.md"> Arboles y metadatos</a></td>
     </tr>
 </table>  
       
