@@ -13,15 +13,15 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
     <tr><td> Sesión 1  Datos y algoritmos bioinformáticos  (9:00 - 10:30 am)          </td>  
       <td>  Sesión 2 Metadatos y visualización (10:45 - 11:45 am)</td>
   </tr>
-    <tr><td> Sesión 3 (12:00 - 1:00 am) Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash </a> 
+    <tr><td> Sesión 3 (12:00 - 1:00 am) RAST y Genomica Bacteriana</a> 
         </td>
       <td>
       </td></tr>  
     <tr><td>
         Comida (2:00-3:00)</td><td> Comida (12:10-12:50)</td></tr>
     <tr><td>
-        Sesión 4  (3:00 - 04:00 pm)   Sesión 4 (1:00 - 2:00) COMIDA  Análisis de secuencias <a href="paginas/git/sesion3.md">Git </a> y <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown</a>            </td>
-      <td>Sesión 5 (4:15-5:15) <a href="paginas/genomica/genomica.md"> Arboles y metadatos</a></td>
+        Sesión 4  (3:00 - 04:00 pm)   Sesión 4 (1:00 - 2:00) COMIDA  Análisis de secuencias Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash     y Docker        </td>
+      <td>Sesión 5 (4:15-5:15) Perspectivas y temas de investigacion <a href="paginas/genomica/genomica.md"> Arboles y metadatos</a></td>
     </tr>
 </table>  
       
