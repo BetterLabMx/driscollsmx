@@ -10,22 +10,18 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
     <tr>
         <td>Lunes 18 (Mañana)       </td> <td>      Lunes 18 (tarde)                 </td>
   </tr>  
-    <tr><td>                                               </td>  
-      <td>  Sesión 3 Redes de información (7:00 - 9:00 am)</td>
+    <tr><td> Sesión 1  Datos y algoritmos bioinformáticos  (9:00 - 10:30 am)          </td>  
+      <td>  Sesión 2 Metadatos y visualización (10:45 - 11:45 am)</td>
   </tr>
-    <tr><td> Sesión 1 (9:00 - 12:00 am) Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash </a> 
+    <tr><td> Sesión 3 (12:00 - 1:00 am) Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash </a> 
         </td>
       <td>
-        Sesión 4 (9:10 -12:10) Análisis de secuencias <a href="paginas/git/sesion3.md">Git </a> y <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown</a>  </td></tr>  
+        Sesión 4 (1:00 - 2:00) COMIDA  Análisis de secuencias <a href="paginas/git/sesion3.md">Git </a> y <a href="https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf">Markdown</a>  </td></tr>  
     <tr><td>
-        Comida (12:00-12:45)</td><td> Comida (12:10-12:50)</td></tr>
+        Comida (2:00-3:00)</td><td> Comida (12:10-12:50)</td></tr>
     <tr><td>
-        Sesión 2  (12:45 - 03:45 pm) Algoritmos Biológicos          </td>
-      <td>Sesión 6 (12:50-3:50) <a href="paginas/genomica/genomica.md"> Arboles y metadatos</a></td>
-    </tr>
-    <tr><td>
-        Sesión 3 (04:00 - 7:00 pm)   Bases de datos   </td>
-        <td>Sesión 7 (4:00 -7:00 pm) Proyectos y exposición </td>
+        Sesión 4  (3:00 - 04:00 pm) Algoritmos Biológicos          </td>
+      <td>Sesión 5 (4:15-5:15) <a href="paginas/genomica/genomica.md"> Arboles y metadatos</a></td>
     </tr>
 </table>  
       
