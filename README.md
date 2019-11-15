@@ -68,39 +68,18 @@ Diseño en TinkerCad  <br>
 <td>
   <b> Sesión 5 Análisis de secuencias y <a href="paginas/git/sesion3.md"> GIT</a> o <a href="paginas/drive/sitios.md">drive </a> </b> <br>  
 5.1 Alineamiento   <br>  
-5.2 Contenido de GC   <br>  
-5.3 El respaldo y documentación de scripts <br>
-5.3.1 La importancia de documentar y respaldar el trabajo informático <br>
-5.3.2 Git Guardar los scripts en internet <br>
-5.3.3 MD Crear documentación organizada <br>
-5.3.4 Wiki git Documentar extensivamente scripts <br>
-</td> 
-<td>
   <b> <a href="paginas/sesion6/arboles.md">Sesión 6 </a>Árboles y metadatos </b> <br>  
-4.1 Crear un árbol a partir de un alineamiento <br>        
-4.2 Metadatos en proyectos genómicos <br>  
+5.1 Crear un árbol a partir de un alineamiento <br>        
+5.2 Metadatos en proyectos genómicos <br>  
 4.3 MicroReact y la visualización de metadatos. <br>  
-</td>
-</tr>
-<tr> 
-<td>
-<b>Sesión 7 </b>
-Dudas sobre el <a href="paginas/proyectos/proyectos.md">proyecto final  </a><br>  
+
 </td> 
-<td><b>Sesión 8</b>
-  Exposición de proyectos  
+<td>
 </td>
 </tr>
 </table>    
      
-___         
-## Entregables    
-El objetivo del curso será que los alumnos tengan un panorama general de la Biología computacional, y que la vivan a través del desarrollo de sus primeros programas.   
-1) Github con un script   25%  
-2) Bacteria identificada   5%  
-3) Exposición de Proyecto 70%  
-  
-___  
+___     
   
 ## Instalaciones y requerimientos previos  
 <h2 id="setup">Setup</h2>  
