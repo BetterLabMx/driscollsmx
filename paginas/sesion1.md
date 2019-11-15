@@ -4,7 +4,7 @@
 
 Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de interés con el que se realizará el árbol, específicando en primer lugar el organismo, en este ejemplo: Fusarium oxysporum 18s  
 
-![FusariumNCBI](Fusarium18s2.png)
+![FusariumNCBI](Fusarium18s.png)
 
 Después, 
 
