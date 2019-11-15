@@ -1,6 +1,6 @@
 # driscollsmx  
 # Biología computacional
-![UniversidadMorazan](imagenes/morazan.png)  
+![DriscollsBerries](imagenes/driscolls.jpeg)  
 
 En este curso aprenderás un poco de biología computacional, adquirirás nociones de las herramientas linux, git, RAST y microreact.   
 
