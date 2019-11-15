@@ -3,4 +3,4 @@
 Hola Noe [NCBI](https://www.ncbi.nlm.nih.gov/) asi se pone un link  
 Y ahora una imagen  
 
-![FusariumNCBI](fusarium18s.png)
+![FusariumNCBI](Fusarium18s.png)
