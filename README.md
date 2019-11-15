@@ -1,5 +1,4 @@
-# driscollsmx  
-# Biología computacional
+# Biología computacional para DRISCOLLs
 ![DriscollsBerries](images/driscolls.jpeg)  
 
 En este curso aprenderás un poco de biología computacional, adquirirás nociones de las herramientas linux, git, RAST y microreact.   
