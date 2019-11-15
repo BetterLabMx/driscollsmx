@@ -6,8 +6,31 @@ Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de in
 
 ![FusariumNCBI](Fusarium18s.png)
 
-Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence".
+Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence"  
+
 ![FusariumOx](FusariumOx.png)
+
+Debes ver la secuencia de nucleótidos, selecciónala y cópiala en el portapapeles  
+
+![FusariumNuc](FusariumNuc.png)
+![Fasta](Fasta.png)
+![GenBank](GenBank.png)
+![BLAST](BLAST.png)
+![NucleotideBLAST](NucleotideBLAST.png)
+![EnterQuery](EnterQuery.png)
+![fastaenblast](fastaenblast.png)
+![wait](wait.png)
+![results](results.png)
+![select](select.png)
+![alignment](alignment.png)
+![selectanddownload](selectanddownload.png)
+![save](save.png)
+![FusariumNuc](FusariumNuc.png)
+![FusariumNuc](FusariumNuc.png)
+
+
+
+
 
 
 # Sesión 5 Datos genómicos y Bioinformática   
