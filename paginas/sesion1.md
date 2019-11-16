@@ -2,35 +2,25 @@
 
 ## Búsqueda de secuencias en NCBI 
 
-Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de interés con el que se realizará el árbol, específicando en primer lugar el organismo, en este ejemplo: Fusarium oxysporum 18s  
-
-![FusariumNCBI](Fusarium18s.png)
-
-Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence"  
+Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de interés con el que se realizará el árbol, específicando en primer lugar el organismo, en este ejemplo: Fusarium oxysporum 18s  Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence"  
 
 ![FusariumOx](FusariumOx.png)
 
-Debes ver la secuencia de nucleótidos, selecciónala y cópiala en el portapapeles  
+Da click en donde dice rRNA, se seleccionará la secuencia y en la parte inferior aparecerá un recuadro da click en FASTA. Verás una página web nueva donde debes ver la secuencia de nucleótidos, selecciónala y cópiala en el portapapeles   
 
-![FusariumNuc](FusariumNuc.png)
-![Fasta](Fasta.png)
 ![GenBank](GenBank.png)
-![BLAST](BLAST.png)
+
+
+Ve al sitio web de [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) y da click en Nucleotide BLAST y en el recuadro pega la secuencia de rRNA copiada anteriormente. Posteriormente, ve a la parte inferior de la página y da click en BLAST.   Los resultados aparecerán en unos minutos. Revisa los valores de E.value y Query cover. Selecciona 5 secuencias, da click en Download/FASTA aligned
 ![NucleotideBLAST](NucleotideBLAST.png)
-![EnterQuery](EnterQuery.png)
-![fastaenblast](fastaenblast.png)
-![wait](wait.png)
+
+
+
 ![results](results.png)
 ![select](select.png)
 ![alignment](alignment.png)
 ![selectanddownload](selectanddownload.png)
 ![save](save.png)
-![FusariumNuc](FusariumNuc.png)
-![FusariumNuc](FusariumNuc.png)
-
-
-
-
 
 
 # Sesión 5 Datos genómicos y Bioinformática   
