@@ -16,9 +16,6 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
   <tr><td> <a href="paginas/sesion3.md"> Sesión 3</a> (12:00 - 1:00 am) < a href=""> RAST </a> y Genomica Bacteriana
         </td><td></td></tr>        
     <tr><td> Comida (2:00-3:00)</td><td> Comida (2:00-3:00)</td></tr>
-  <tr><td>  <a href="paginas/sesion4.md"> Sesión 4  </a> (3:00 - 04:00 pm)   Análisis de secuencias Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash     y Docker        </td>
-      <td>Sesión 5 (4:15-5:15) Perspectivas y temas de investigacion </td>
-    </tr>
    </table>  
       
     
