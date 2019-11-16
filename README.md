@@ -13,7 +13,7 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
   <tr><td> <a href="paginas/sesion1.md"> Sesión 1</a>  Datos y algoritmos bioinformáticos  (9:00 - 10:30 am)          </td>  
       <td>  <a href="paginas/sesion2.md"> Sesión 2</a> Metadatos y visualización (10:45 - 11:45 am)</td>
   </tr>
-  <tr><td> <a href="paginas/sesion3.md"> Sesión 3</a> (12:00 - 1:00 am) < a href=""> RAST </a> y Genomica Bacteriana
+  <tr><td> <a href="paginas/sesion3.md"> Sesión 3</a> (12:00 - 1:00 am) < a href="http://rast.nmpdr.org/rast.cgi"> RAST </a> y Genomica Bacteriana
         </td><td></td></tr>        
     <tr><td> Comida (2:00-3:00)</td><td> Comida (2:00-3:00)</td></tr>
   <tr><td>  <a href="paginas/sesion4.md"> Sesión 4  </a> (3:00 - 04:00 pm)   Análisis de secuencias Introducción y <a href="https://swcarpentry.github.io/shell-novice-es/"> bash     y Docker </a> </td>
