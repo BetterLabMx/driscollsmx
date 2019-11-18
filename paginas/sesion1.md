@@ -39,7 +39,17 @@ Selecciona la secuencia "LT598662.1:7956032-7956602_Fusarium_culmorum_genome_ass
 ## Construcción del árbol filogenético
 
 Como primer paso debemos encontrar un modelo de sustitución nucleótidica adecuado para nuestro set de datos. ¿Qué significa esto?  
-Cambia de ventana en MEGA y da click en "Model/Find Best DNA/Protein Models (ML)". Dejamos los valores que aparecen en el recuadro y damos click en "OK". Observa la tabla de resultados, en orden descendente aparecerán en la tabla los modelos que expliquen mejor los cambios observados en cada sitio variable (sustitución nucleotídica). Los modelos con el score BIC más bajo son considerados como aquellos que describen mejor los patrones de sustitución observados.
+Cambia de ventana en MEGA y da click en "Model/Find Best DNA/Protein Models (ML)". Dejamos los valores que aparecen en el recuadro y damos click en "OK". Observa la tabla de resultados, en orden descendente aparecerán en la tabla los modelos que expliquen mejor los cambios observados en cada sitio variable (sustitución nucleotídica). Los modelos con el score BIC más bajo son considerados como aquellos que describen mejor los patrones de sustitución observados. En este ejemplo el mejor modelo es "K2", por lo que éste será utilizado para inferir el árbol filogenético.
+
+![ModelTable](ModelTable.png)
+
+Ahora da click en  "PHYLOGENY" en la ventana principal de MEGA. Cambia el modelo de sustitución por "Kimura 2-parameter model". Además, incluiremos un "control de calidad" al árbol con el que se evalúa la veracidad del mismo. Para ésto da click en "Test of Phylogeny" y selecciona "Boostrap method". A continuación escribe 100 en "No. of Boostrap Replications" y da click en "OK". Esperamos un poco mientras corre el programa, observaremos el árbol filognético en una nueva ventana. 
+¿Cuál es la cantidad mínima de boostraps necesarios para obtener un árbol fidedigno?  
+
+![PhyTree](PhyTree.png)  
+
+
+
 
 
 
