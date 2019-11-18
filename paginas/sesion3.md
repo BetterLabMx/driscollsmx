@@ -19,3 +19,4 @@ Rast es una plataforma que una vez ensamblados los genomas procariontes, permite
   
 6. Descarga una secuencia genómica de NCBI en formato fasta o gbk y anótala en RAST.
   
+RAST ha sido utilizado por otras plataformas genómicas, por ejemplo [PATRIC](https://www.patricbrc.org/) que puede ensamblar genomas bacterianos.  
