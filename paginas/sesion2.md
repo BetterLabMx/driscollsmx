@@ -42,8 +42,11 @@ Selecciona el proyecto 'Zika virus in the Americas', discute con tu compañero d
 ¿Cuáles virus tienen el genoma más grande y más chico?
 
 ## Metadatos con tus secuencias de Xanthomonas.  
-Ahora vamos a crear una visualización de microreact que incluya tanto las coordenadas de latitud y longitud donde se tomó la muestra de Xanthomonas como el árbol filogenético de las secuencias. Para ello ve a NCBI y observa los archivos genebank de genomas de Xanthomonas. Crea una hoja de cálculo de google docs, que contenga la base de datos que ya descargaste y además tu secuencia con tus metadatos [Ejemplo](https://docs.google.com/spreadsheets/d/1tMbJYiF7cR1BSrCJ_PRm3ozaBx_QNZrfMKlQBmpIAvw/edit?usp=sharing).   
-
+Ahora vamos a crear una visualización de microreact que incluya tanto las coordenadas de latitud y longitud donde se tomó la muestra de Xanthomonas como el árbol filogenético de las secuencias. 
+1. Utiliza como árbol el archivo newick de [16s de Xanthomonas](Xanthomonas-BioNJ_tree). 
+2. Para los metadatos ve a NCBI y observa los archivos genebank de genomas de Xanthomonas. 
+3. Crea una hoja de cálculo de google docs, que contenga la base de datos que ya descargaste y además tu secuencia con tus metadatos [Ejemplo](https://docs.google.com/spreadsheets/d/1tMbJYiF7cR1BSrCJ_PRm3ozaBx_QNZrfMKlQBmpIAvw/edit?usp=sharing).   
+4. Crea tu visualización en Microreact de Xanthomonas. ¿Qué observas?
 ## De donde viene la siguiente secuencia
    
 >Secuencia_misteriosa  
