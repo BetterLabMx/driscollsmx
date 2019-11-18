@@ -6,7 +6,10 @@ La genómica nos permite solucionar problemas que la genética no, ya que se com
 Rast es una plataforma que una vez ensamblados los genomas procariontes, permite subir sus nucleótidos en formato fasta y los anota automáticamente comparándo los subsistemas del genoma a anotar con los subsistemas de otros genomas conocidos.  
   
 ### Ejemplo  
-1. Entra a RAST y busca un genoma de Xanthomonas   
+Hemos montado una cuenta de prueba para usuarios de este curso. Ve a la plataforma [RAST](http://rast.nmpdr.org/rast.cgi) y explórala.  
+driscolls gd3f3lVN
+
+1. Entra a RAST y busca un genoma de _Streptomyces_, después escoge un genoma de _Xanthomonas_   
   
 2. Ve a la plataforma de visualización y compara tu genoma con el de algún compañero. ¿Tienen el mismo número de genes? ¿Cómo son sus subsistemas?   
 ![imagen](descripcion.png)    
