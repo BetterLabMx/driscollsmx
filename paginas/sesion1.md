@@ -23,7 +23,7 @@ Ejemplo de búsqueda en NCBI:
 En bioinformática los formatos de los archivos son importantes para su posterior tratamiento. Nosotros necesitaremos el formato fasta para posteriores análisis. Por ello haremos un ejercicio para que te familiarices con él. Este formato consiste en una línea con el símbolo '>' antes del nombre identificador de la secuencia, y después un salto de línea y la secuencia como tal.  
   
 
-# Sesión P´ractica 1: Generación de base de datos de Fusarium 
+# Sesión Práctica 1: Generación de base de datos de Fusarium 
 
 ## Búsqueda de secuencias en NCBI 
 
