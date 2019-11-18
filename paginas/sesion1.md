@@ -11,11 +11,13 @@ La secuencia copiada será utilizada para buscar secuencias similares, asumiendo
 ![GenBank](GenBank.png)  
 La secuencia copiada será utilizada para buscar secuencias similares, asumiendo que entre más parecidas son dichas secuencias los organismos están más relacionados genéticamente.  
 
-Ve al sitio web de [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) y da click en Nucleotide BLAST y en el recuadro pega la secuencia del gen de rRNA copiada anteriormente. Posteriormente, ve a la parte inferior de la página y da click en BLAST.   Los resultados aparecerán en unos minutos.   
+Ve al sitio web de [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) y da click en Nucleotide BLAST y en el recuadro pega la secuencia del gen de rRNA copiada anteriormente. Posteriormente, ve a la parte inferior de la página y da click en BLAST.   Los resultados aparecerán en unos minutos.  
 ![EnterQuery](EnterQuery.png)  
 En la tabla de resultados revisa los valores de "E.value" y "Query cover" y selecciona las 5 secuencias más parecidas, da click en Download/FASTA aligned y guarda el archivo con el nombre "Fusarium_18s.fasta". Es importante no usar espacios o caracteres especiales en los nombres de los archivos ya que pueden generar errores en algunos softwares.  ¿Recuerdas la estructura de un archivo fasta?  
 
-![selectanddownload](selectanddownload.png)
+![selectanddownload](selectanddownload.png)  
+
+Recuerda que para generar una buena base de datos es necesario obtener la mayor cantidad de secuencias posibles que representen la mayoría de las especies y subespecies que te interesan. Además, es importante tener en cuenta el no tener redundancia en las secuencias.  
 
 ## Crear un alineamiento multiple de secuencias utilizando la base datos
 Abre el programa MEGA y da click en "Align" y después en "Edit/Build Aligment". Selecciona "Retrieve a sequence from a file". Selecciona el archivo recién descargado de BLAST, recuerda que tiene que tener la extensión ".fasta". En el recuadro selecciona "ADN".
@@ -24,7 +26,7 @@ Aparecerá una nueva ventana donde verás las secuencias descargadas de BLAST.
 ![BuildAligment](BuildAligment.png)
 
 Da un vistazo a las secuencias, ¿es fácil saber si son similares?  
-Ahora alinearemos las secuencias para observar su similitud. Selecciona todas las secuencias y da click en la imagen con un brazo "Align with the MUSCLE algorithm" y después "Align DNA".
+Ahora alinearemos las secuencias para observar mejor su similitud. Selecciona todas las secuencias y da click en la imagen con un brazo "Align with the MUSCLE algorithm" y después "Align DNA".
 
 ![BuildAligment](BuildAligment.png)  
 
