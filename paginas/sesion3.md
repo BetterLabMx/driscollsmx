@@ -5,10 +5,10 @@ La genómica nos permite solucionar problemas que la genética no, ya que se com
 ## Ejemplo de plataforma privada.  
 Para estudiar _Clavibacter michiganensis michiganensis_ un patógeno del tomate hemos desarollado [Clavisual](https://nselem.github.io/clavigenomics/) que identifica genes marcadores adistintos niveles y realiza un árbol multilocus con una visualización de metadatos.  
 
-## RAST Plataforma de anotación bacteriana  
+## RAST Plataforma pública de anotación bacteriana  
 Rast es una plataforma que una vez ensamblados los genomas procariontes, permite subir sus nucleótidos en formato fasta y los anota automáticamente comparándo los subsistemas del genoma a anotar con los subsistemas de otros genomas conocidos.  
   
-### Ejemplo  
+### Ejercicio
 Hemos montado una cuenta de prueba para usuarios de este curso. Ve a la plataforma [RAST](http://rast.nmpdr.org/rast.cgi) y explórala.  
 driscolls gd3f3lVN
 
