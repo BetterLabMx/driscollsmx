@@ -21,7 +21,7 @@ driscolls gd3f3lVN
   
 4. Utiliza Blast para localizar el gen RpoB de tu genoma. (Puedes obtener una secuencia query de RpoB de NCBI)  ¿Cómo son las vecindades genomicas?    
   
-5. Descarga un genomas de Xanthomonas anotado en fasta y discute con tus compañeros como podrías utilizar los datos genómicos para mejorar la resolución de tu árbol de Xanthomonas.  
+5. Descarga tres genomas de Xanthomonas anotados en fasta y discute con tus compañeros como podrías utilizar los datos genómicos para mejorar la resolución de tu árbol de Xanthomonas.  
   
 6. Descarga una secuencia genómica de NCBI en formato fasta o gbk y anótala en RAST.
   
