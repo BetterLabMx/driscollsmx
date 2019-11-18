@@ -58,7 +58,7 @@ En Windows docker corre en una terminal llamada powershell, donde se pueden util
 `docker run --rm -i -t -v $(pwd):/var/www/html/EvoMining/exchange -p 80:80 nselem/evomining:latest /bin/bash`  
   
 # Ejercicio subir un genoma utilizando myRAST.    
-Sigue el tutorial en la página de [myRAST](https://github.com/nselem/myrast)  
+Sigue el tutorial de docker en la página de [myRAST](https://github.com/nselem/myrast)  
 
 Existen ensambladores genómicos empacados en docker, así como software para filtrado y supervisión de procesos de calidad.  
   
