@@ -18,7 +18,7 @@ Para agregar las coordenadas de tu lugar de nacimiento:
 3) Da click derecho sobre el lugar del que quieres extraer las coordenadas. Debe aparecer un cuadrito en la parte inferior del mapa    (Si no aparece utiliza click derecho -> ¿Qué hay aquí?)
 4) Pulsa sobre las coordenadas que están abajo del cuadro  
 5) Copia y pega la latitud y longitud en las columnas de la hoja de cálculo que abriste en el paso   
-
+6) Usa el link del documento compartido en la red para visualizarlo en microreact  https://docs.google.com/spreadsheets/d/e/2PACX-1vRQRvlM_T_Ftohl23cWvs8hT9FVqCp2K8441-Ce0V1aA_RvRYLOjFJg_L_ilvALM_zBiVvJy4w0RevT/pub?output=csv
 ### Recuerda que cuando se llena la hoja de cálculo se deben seguir las buenas prácticas de colecta de metadatos.
 
 ####   Ejercicio segunda parte
