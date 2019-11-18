@@ -46,6 +46,8 @@ Ahora vamos a crear una visualización de microreact que incluya tanto las coord
 1. Utiliza como árbol el archivo newick de [16s de Xanthomonas](Xanthomonas-BioNJ_tree). 
 2. Para los metadatos ve a NCBI y observa los archivos genebank de genomas de Xanthomonas. 
 3. Crea una hoja de cálculo de google docs, que contenga la base de datos que ya descargaste y además tu secuencia con tus metadatos [Ejemplo](https://docs.google.com/spreadsheets/d/1tMbJYiF7cR1BSrCJ_PRm3ozaBx_QNZrfMKlQBmpIAvw/edit?usp=sharing).   
+Link publicado  
+https://docs.google.com/spreadsheets/d/e/2PACX-1vSZSbMYiLj2D0mHt4jUjJ22SrC63mgzb-443QTPRiDibLdSVkOJvMAddbSLBaPhD_KdbcICJOd2fedM/pub?output=csv
 4. Crea tu visualización en Microreact de Xanthomonas. ¿Qué observas? ¿Qué tan parecidas son las secuencias? Tip: Puedes utilizar BLAST también para comparar dos secuencias? ¿Cómo puedes mejorar la resolución de tu árbol?
 
 ## De donde viene la siguiente secuencia
