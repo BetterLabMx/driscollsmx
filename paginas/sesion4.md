@@ -1,14 +1,3 @@
----
-title: "LinuxDocker"
-author: "Nelly"
-date: "18 de noviembre de 2019"
-output: html_document
----
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 # Bash y docker  
 Linux es un sistema operativo como windows o mac mientras que Bash es el lenguaje de la terminal de linux que nos permite manipular muchos archivos a la vez. Docker en cambio es un empacador de programas de linux y sus dependencias que facilita compartir software de análisis científicos. En esta sección hablaremos de estas dos herramientas.   
 
