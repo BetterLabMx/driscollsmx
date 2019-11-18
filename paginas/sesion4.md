@@ -24,24 +24,24 @@ Comprueba que todos los archivos de genomas están ahi. ¿Qué comando utilizar�
 Verifica el contenido de las primeras n líneas de cada uno de ellos utilizando el comando head. 
 `head *faa`
 
-### Ejercicio Respaldo de los genomas    
-1. Crea una carpeta respaldo  
+### Ejercicio Respaldo de los genomas     
+1. Crea una carpeta respaldo   
 2. Copia todos los genomas a la carpeta respaldo utilizando el comando `cp path-inicio path-final`  
-  
+   
 ### El poder de linux  
-Muchos programas pueden ejecutarse desde la terminal de linux, de hecho la mayoría de los programas bioinformáticos se ejecutan ahi. Hagamos un ejemplo, haremos nuestro propio programa y lo correremos en muchos archivos.  
-Supón que tienes muchos archivos fasta y no sabes cuáles corresponden a genomas y cuáles a plásmidos. Posiblemente conocer el tamaño de los archivos te ayudaría a decidir. Linux tiene el comando para ti. Con `wc` obtendrás el número de líneas y caracteres de un archivo. Para ver la salida de este comando ejecuta `wc 48664.132.faa`   
+Muchos programas pueden ejecutarse desde la terminal de linux, de hecho la mayoría de los programas bioinformáticos se ejecutan ahi. Hagamos un ejemplo, haremos nuestro propio programa y lo correremos en muchos archivos.   
+Supón que tienes muchos archivos fasta y no sabes cuáles corresponden a genomas y cuáles a plásmidos. Posiblemente conocer el tamaño de los archivos te ayudaría a decidir. Linux tiene el comando para ti. Con `wc` obtendrás el número de líneas y caracteres de un archivo. Para ver la salida de este comando ejecuta `wc 48664.132.faa`    
 
-nano contador.sh
+nano contador.sh  
 `wc $1`  
-control O para salvar  
-control x para salir
+control O para salvar   
+control x para salir  
 
-Ahora ejecuta tu script 
-`bash contador.sh 48664.132.faa`  
-¿Qué te queda? 
+Ahora ejecuta tu script   
+`bash contador.sh 48664.132.faa`   
+¿Qué te queda?  
 
-¿Qué te queda si ejecutas ` ls *faa | while read line; do bash contador.sh $line ;done` ?  
+¿Qué te queda si ejecutas ` ls *faa | while read line; do bash contador.sh $line ;done` ?    
   
 
 ## Docker 
