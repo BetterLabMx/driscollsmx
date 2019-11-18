@@ -2,26 +2,46 @@
 
 ## Búsqueda de secuencias en NCBI 
 
-Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de interés con el que se realizará el árbol, específicando en primer lugar el organismo. En este ejemplo usaremos Fusarium oxysporum 18s.  Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence"  
+Entra al sitio web de [NCBI](https://www.ncbi.nlm.nih.gov/) y busca el gen de interés con el que se realizará el árbol, específicando en primer lugar el organismo. En este ejemplo usaremos Fusarium oxysporum 18s.  Después, da click en el primer resultado titulado "Fusarium oxysporum 18S ribosomal RNA gene, complete sequence".  
 
 ![FusariumOx](FusariumOx.png)
 
 Da click en donde dice rRNA, se seleccionará la secuencia y en la parte inferior del navegador aparecerá un recuadro, da click en FASTA. Verás una página web nueva donde debes ver la secuencia de nucleótidos, selecciónala y cópiala en el portapapeles.  
-La secuencia copiada será utilizada para buscar secuencias similares, asumiendo que entre más parecidas son dichas secuencias los organismos están más relacionados genéticamente. 
-
-![GenBank](GenBank.png)
-
+La secuencia copiada será utilizada para buscar secuencias similares, asumiendo que entre más parecidas son dichas secuencias los organismos están más relacionados genéticamente.  
+![GenBank](GenBank.png)  
 La secuencia copiada será utilizada para buscar secuencias similares, asumiendo que entre más parecidas son dichas secuencias los organismos están más relacionados genéticamente.  
 
 Ve al sitio web de [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) y da click en Nucleotide BLAST y en el recuadro pega la secuencia del gen de rRNA copiada anteriormente. Posteriormente, ve a la parte inferior de la página y da click en BLAST.   Los resultados aparecerán en unos minutos.   
 ![EnterQuery](EnterQuery.png)  
-En la tabla de resultados revisa los valores de "E.value" y "Query cover" y selecciona las 5 secuencias más parecidas, da click en Download/FASTA aligned y guarda el archivo con el nombre Fusarium 18s.
-
+En la tabla de resultados revisa los valores de "E.value" y "Query cover" y selecciona las 5 secuencias más parecidas, da click en Download/FASTA aligned y guarda el archivo con el nombre "Fusarium_18s.fasta". Es importante no usar espacios o caracteres especiales en los nombres de los archivos ya que pueden generar errores en algunos softwares.  ¿Recuerdas la estructura de un archivo fasta?  
 
 ![selectanddownload](selectanddownload.png)
 
+## Crear un alineamiento multiple de secuencias utilizando la base datos
+Abre el programa MEGA y da click en "Align" y después en "Edit/Build Aligment". Selecciona "Retrieve a sequence from a file". Selecciona el archivo recién descargado de BLAST, recuerda que tiene que tener la extensión ".fasta". En el recuadro selecciona "ADN".
+Aparecerá una nueva ventana donde verás las secuencias descargadas de BLAST.
 
-![select](select.png)
+![BuildAligment](BuildAligment.png)
+
+Da un vistazo a las secuencias, ¿es fácil saber si son similares?  
+Ahora alinearemos las secuencias para observar su similitud. Selecciona todas las secuencias y da click en la imagen con un brazo "Align with the MUSCLE algorithm" y después "Align DNA".
+
+![BuildAligment](BuildAligment.png)  
+
+¿Son similares las secuencias? ¿Hay alguna secuencia que no se parezca las demás?  
+Parece que la secuencia "LT598662.1:7956032-7956602_Fusarium_culmorum_genome_assembly_chromosome_IV" no corresponde al gen, ¿cuál puede ser la causa?  
+
+Da click derecho en una de las secuencias, aparecerá un menú, da click en "Undo" para deshacer el alineamiento.  
+Selecciona la secuencia "LT598662.1:7956032-7956602_Fusarium_culmorum_genome_assembly_chromosome_IV", da click derecho y selecciona "Reverse complement", deberás obtener la cadena complementaria en sentido reverso de la secuencia original. Repite los pasos para generar el alineamiento.  Una vez alineado podemos observar mejor las diferencias entre las secuencias dando click en "Display/Toggle Conserved Sites/at 100% Level". Estos cambios en la secuencia son los que nos dan información para poder construir los árboles filogenéticos más adelante.  
+
+![ConservedSites](ConservedSites.png)
+
+## Construcción del árbol filogenético
+
+Como primer paso debemos encontrar un modelo de sustitución nucleótidica adecuado para nuestro set de datos. ¿Qué significa esto?  
+Cambia de ventana en MEGA y da click en "Model/Find Best DNA/Protein Models (ML)". Dejamos los valores que aparecen en el recuadro y damos click en "OK". Observa la tabla de resultados, en orden descendente aparecerán en la tabla los modelos que expliquen mejor los cambios observados en cada sitio variable (sustitución nucleotídica). Los modelos con el score BIC más bajo son considerados como aquellos que describen mejor los patrones de sustitución observados.
+
+
 
 
 
