@@ -24,56 +24,6 @@ En este curso aprenderás un poco de biología computacional, adquirirás nocion
 ## Informacion General  
 Aqui puedes encontrar un [documento colaborativo](https://etherpad.net/p/compbio  ) donde compartiremos información relevante, links, y respuestas a preguntas que surjan durante el taller. Dos de nuestras lecciones linux y git son parte del contenido habitual de [software carpentry](https://software-carpentry.org/) una organización dedicada a enseñar habilidades de cómuto para hacer más en menos tiempo y con menos sufrimiento, usaremos estas dos lecciones con su permiso. Las otras dos lecciones fueron pensadas de acuerdo a las necesidades específicas de nuestro centro de trabajo. Finalmente esta [presentación](https://docs.google.com/presentation/d/1ELPMuwxz9no_BEKIPr4la0CtLt4d1LMicqorxCdjjDs/edit) contiene el material utilizado en las pláticas. 
 
-
-## Temario detallado  
-<table> 
-<tr>
-  <td> <b> <a href="paginas/linux/introduccion.md">Sesión 1</a> Introducción y Linux bash</b> <br>
-1.1 Introducción a la biología y genética molecular. <br>
-Aplicaciones de biología computacional. <br>
-  1.2 Biohack y la filosofía open software. <br>
-Diseño en TinkerCad  <br>
-1.3.1 Linux/Unix, Principios básicos del Shell  <br>
-1.3.2 Comandos para el manejo de archivos y directorios   <br>
-1.3.3 Pipes y filtros   <br>
-</td>
-  <td> <b> <a href="paginas/sesion2/algoritmos.md" >Sesión 2:</a> Algoritmos Biológicos </b>  <br>
-2.1 Ensamblado  <br>  
-2.2 Alineamiento  <br>
-2.3 BLAST   (16s) <br>
-2.4 Algoritmos de Bash Loops <br>
-</td>
-</tr>
-  <tr> 
-    <td><b> <a href="paginas/sesion3/basesDatos.md">Sesión 3</a>  Bases de datos, mapas y uso de paquetes de análisis</b> <br>
-3.1 NCBI  <br>
-3.2 MIBiG  <br>
-3.3 antiSMASH <br> 
-3.4 Creando tu script  de bash <br>    
-3.5 Paquete de análisis: RAST  <br>  
-</td>
-    <td> <b> <a href="paginas/sesion4/redes.md">Sesión 4</a> Redes de información y estructura de proteinas </b> <br>  
- 4.1 PriA ¿por qué se necesitan redes? <br>  
- 4.1 Operones y STRING   <br>  
- 4.2 Roseta,y evcouplings para la reconstrucción 3D   <br>  
- 4.3 Scripts en bash  <br>
-</td>
-</tr>  
-<tr>
-<td>
-  <b> Sesión 5 Análisis de secuencias y <a href="paginas/git/sesion3.md"> GIT</a> o <a href="paginas/drive/sitios.md">drive </a> </b> <br>  
-5.1 Alineamiento   <br>  
-  <b> <a href="paginas/sesion6/arboles.md">Sesión 6 </a>Árboles y metadatos </b> <br>  
-5.1 Crear un árbol a partir de un alineamiento <br>        
-5.2 Metadatos en proyectos genómicos <br>  
-4.3 MicroReact y la visualización de metadatos. <br>  
-
-</td> 
-<td>
-</td>
-</tr>
-</table>    
-     
 ___     
   
 ## Instalaciones y requerimientos previos  
