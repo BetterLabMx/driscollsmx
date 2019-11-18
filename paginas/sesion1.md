@@ -1,3 +1,28 @@
+# Sesión 1. ¿Qué es la bioinformática?  
+Bioinformática es un conjunto de técnicas y algoritmos computacionales aplicadas a datos biológicos. Es una nueva área de estudio que combina biología molecular con ciencias computacionales. Un reto mayor que la bioinformática enfrenta es organizar la gran cantidad de información obtenida gracias a las nuevas tecnologías de secuenciación. Veamos ¿qué es la bioinformática? en esta [presentación](https://docs.google.com/presentation/d/1ELPMuwxz9no_BEKIPr4la0CtLt4d1LMicqorxCdjjDs/edit#slide=id.g5a4b1e4ece_0_0)
+
+### La información Biológica se almacena en grandes bases de datos.  
+Las bases de datos que almacenan información biológica pueden ser públicas o privadas. En ellas, los usuarios acumulan información de los organismos. Esta información es usualmente procesada por algún paquete de análisis para proporcionar una visualización.  
+
+#### [The National Center for Biotechnology Information NCBI](https://www.ncbi.nlm.nih.gov/)  
+NCBI es una de las grandes bases de datos biológicas contiene información de una extensa variedad de organismos incluyendo genes, genomas, proteinas, clasificación taxonómica, etc.  
+
+Ejemplo de búsqueda en NCBI:
+1. Búsqueda individual
+   Ve a la página de NCBI y escribe mitochondrial en el buscador  
+   ¿Qué resultados te salen?  
+   
+2. Búsqueda con modificadores AND y NOT   
+ De hecho NCBI agrupa varias bases de datos, vamos a explorar taxonomy y nucleotide. Selecciona Nucleotide como base de datos y realiza la siguiente búsqueda.   
+   
+`"mitochondrial" [title]AND "D-loop"[title] NOT "segment"[title] AND "homo" [organism]  `    
+  
+¿Qué obtienes?  
+
+### El formato fasta  
+En bioinformática los formatos de los archivos son importantes para su posterior tratamiento. Nosotros necesitaremos el formato fasta para posteriores análisis. Por ello haremos un ejercicio para que te familiarices con él. Este formato consiste en una línea con el símbolo '>' antes del nombre identificador de la secuencia, y después un salto de línea y la secuencia como tal.  
+  
+
 # Sesión 1: Generación de base de datos de Fusarium 
 
 ## Búsqueda de secuencias en NCBI 
@@ -38,7 +63,7 @@ Una vez alineado podemos observar mejor las diferencias entre las secuencias dan
 
 ![ConservedSites](ConservedSites.png)
 
-## Construcción del árbol filogenético
+## Construcción de un árbol filogenético
 
 Como primer paso debemos encontrar un modelo de sustitución nucleótidica adecuado para nuestro set de datos. ¿Qué significa esto?  
 Cambia de ventana en MEGA y da click en "MODEL" y "Find Best DNA/Protein Models (ML)". Dejamos los valores que aparecen en el recuadro y damos click en "OK". Observa la tabla de resultados, en orden descendente aparecerán en la tabla los modelos que expliquen mejor los cambios observados en cada sitio variable (sustitución nucleotídica). Los modelos con el score BIC más bajo son considerados como aquellos que describen mejor los patrones de sustitución observados. En este ejemplo el mejor modelo es "K2", por lo que éste será utilizado para inferir el árbol filogenético.
@@ -53,21 +78,24 @@ Además, incluiremos un "control de calidad" al árbol con el que se evalúa la 
 
 ![PhyTree](PhyTree.png)  
 
-Puedes utilizar lo aprendido para inferir la especie de alguna muestra problema, lo que tienes que hacer es agregar a la base de datos las secuencias de organismos no identificados, crear un alineamiento con las mismas, encontrar el mejor modelo que explique los cambios observados en las secuencias y construir un árbol filogenético. Finalmente, la posición en el árbol de la muestra problema será lo que la identifique.
+Puedes utilizar lo aprendido para inferir la especie de alguna muestra problema, lo que tienes que hacer es agregar a la base de datos las secuencias de organismos no identificados, crear un alineamiento con las mismas, encontrar el mejor modelo que explique los cambios observados en las secuencias y construir un árbol filogenético. Finalmente, la posición en el árbol de la muestra problema será lo que la identifique ya que su secuencia será la más parecida  a una previamente identificada.
+
+## Agregar datos de secuenciación de Sanger a la base de datos  
+En caso de haber secuenciado en un servicio externo, como resultado envían dos archivos. El primero con una extensión .seq el cual contiene la secuencia en formato fasta. Y el segundo en formato .ab1, que contiene el electroferograma.  
+Analizaremos un ejemplo del segundo (ab1) para validar la información proporcionada en los archivos .seq. Ya que de ésto dependerán los resultados en análisis posteriores.  
+
+Desacarga e instala [FinchTV](https://digitalworldbiology.com/FinchTV).  
+Descarga el archivo ".ab1"
+
+Abre FinchTV y revisa el tamaño de la secuencia obtenida y su calidad. 
+Selecciona y copia solo la secuencia con una buena calidad, de lo contrario los resultados de los alineamientos, estimación del mejor modelo y árbol serán erróneos. 
+
+![FinchTV](FinchTV.png)
+
+Crea un archivo fasta en un bloc de notas, en la primera linea escribe el símbolo ">" luego la descripción de la muestra y un salto de linea. En la segunda linea pega la secuencia que revisaste previamente.  
+Esta secuencia está lista para ser agregada la base de datos y realizar su identificación.
 
 
-
-
-
-
-
-
-![NucleotideBLAST](NucleotideBLAST.png)
-![results](results.png)
-
-![alignment](alignment.png)
-![selectanddownload](selectanddownload.png)
-![save](save.png)
 
 
 # Sesión 5 Datos genómicos y Bioinformática   
