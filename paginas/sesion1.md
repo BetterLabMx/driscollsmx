@@ -51,7 +51,7 @@ Abre el programa MEGA y da click en "Align" y después en "Edit/Build Aligment".
 Da un vistazo a las secuencias, ¿es fácil saber si son similares?  
 Ahora alinearemos las secuencias para observar mejor su similitud. Selecciona todas las secuencias y da click en la imagen con un brazo y la leyenda "Align with the MUSCLE algorithm" y después "Align DNA".
 
-![BuildAligment](BuildAligment.png)  
+![muscle](muscle.png)  
 
 ¿Son similares las secuencias? ¿Hay alguna secuencia que no se parezca las demás?    
 Parece que la secuencia "LT598662.1:7956032-7956602_Fusarium_culmorum_genome_assembly_chromosome_IV" no corresponde al gen, ¿cuál puede ser la causa?  
@@ -87,12 +87,13 @@ Analizaremos un ejemplo del segundo (ab1) para validar la información proporcio
 Desacarga e instala [FinchTV](https://digitalworldbiology.com/FinchTV).  
 Descarga el electroferograma [F411](F411.ab1)
 
-Abre FinchTV y revisa el tamaño de la secuencia obtenida y su calidad. 
+Abre el archivo del electroferograma "F411" en FinchTV y revisa el tamaño de la secuencia obtenida y su calidad. 
 Selecciona y copia solo la secuencia con una buena calidad, de lo contrario los resultados de los alineamientos, estimación del mejor modelo y árbol serán erróneos. 
 
 ![FinchTV](FinchTV.png)
 
 Crea un archivo fasta en un bloc de notas, en la primera linea escribe el símbolo ">" luego la descripción de la muestra y un salto de linea. En la segunda linea pega la secuencia que revisaste previamente.  
-Esta secuencia está lista para ser agregada la base de datos y realizar su identificación.
+Esta secuencia está lista para ser agregada la base de datos y realizar su identificación mediante los pasos descritos anteriormente.
+
 
 
